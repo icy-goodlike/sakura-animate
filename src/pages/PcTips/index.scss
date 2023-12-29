@@ -1,0 +1,28 @@
+html,
+body {
+  margin: 0;
+  padding: 0;
+  background-position: center;
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+}
+
+.pc-wrapper {
+  width: 0;
+  transition: width 1s linear;
+  height: 250px;
+  border-radius: 10px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transform: translate(-50%, -50%);
+  margin: 0 auto;
+  padding: 10px;
+  text-align: center;
+  color: #fff;
+  background-color: rgba(0, 0, 0, 0.2);
+  font-size: 22px;
+}
